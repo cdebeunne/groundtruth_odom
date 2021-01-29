@@ -1,0 +1,5 @@
+<launch>
+    <node pkg="groundtruth_odom" type="groundtruth_odom_main" name="groundtruth_odom_main" />
+
+    <node pkg="rviz" type="rviz" name="groundtruth_odom_rviz" args="-d $(find groundtruth_odom)/launch/config.rviz" />
+</launch>

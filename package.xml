@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>groundtruth_odom</name>
+  <version>0.1.0</version>
+  <description>The groundtruth_odom package</description>
+  <license>Apache 2.0</license>
+  <maintainer email="debeunnecesar@gmail.com">César Debeunne</maintainer>
+  <author> César Debeunne </author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>roscpp</build_depend>
+  <exec_depend>roscpp</exec_depend>
+  <build_depend>rospy</build_depend>
+  <exec_depend>rospy</exec_depend>
+  
+  <build_depend>tf</build_depend>
+  <exec_depend>tf</exec_depend>
+  <build_depend>std_msgs</build_depend>
+  <exec_depend>std_msgs</exec_depend>
+  <build_depend>sensor_msgs</build_depend>
+  <exec_depend>sensor_msgs</exec_depend>
+  <build_depend>geometry_msgs</build_depend>
+  <exec_depend>geometry_msgs</exec_depend>
+  <build_depend>nav_msgs</build_depend>
+  <exec_depend>nav_msgs</exec_depend>
+  <build_depend>eigen</build_depend>
+  <exec_depend>eigen</exec_depend>
+
+</package>
